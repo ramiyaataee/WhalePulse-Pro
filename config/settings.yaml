@@ -1,0 +1,51 @@
+﻿# تنظیمات WhalePulse Pro
+
+# تنظیمات مانیتورینگ
+monitor:
+  check_interval: 1  # ثانیه
+  report_interval: 900  # 15 دقیقه
+  max_historical_records: 1000
+
+# تنظیمات استراتژی‌ها
+strategies:
+  volume_spike:
+    enabled: true
+    threshold: 50  # درصد
+    cooldown: 300  # ثانیه
+  
+  whale_alert:
+    enabled: true
+    min_volume: 1000000
+    price_change_threshold: 2.0
+
+# تنظیمات نوتیفیکیشن‌ها
+notifications:
+  telegram:
+    enabled: true
+    token: "8136421090:AAFrb8RI6BQ2tH49YXX_5S32_W0yWfT04Cg"
+    chat_id: "570096331"
+  
+  discord:
+    enabled: false
+    webhook: ""
+
+# تنظیمات ارزها
+symbols:
+  - "BTCUSDT"
+  - "ETHUSDT"
+  - "BNBUSDT"
+  - "ADAUSDT"
+  - "SOLUSDT"
+
+# تنظیمات تحلیل
+analysis:
+  volatility_period: 20
+  trend_period: 20
+  momentum_period: 10
+  support_resistance_period: 50
+
+# تنظیمات لاگینگ
+logging:
+  level: INFO
+  max_file_size: 10485760  # 10MB
+  backup_count: 5

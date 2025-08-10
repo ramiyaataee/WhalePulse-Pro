@@ -1,0 +1,11 @@
+2025-08-10 23:15:36,434 - __main__ - INFO - 🚀 WhalePulse Pro در حال شروع...
+2025-08-10 23:15:36,454 - __main__ - INFO - ⚙️ تنظیمات بارگذاری شد
+2025-08-10 23:15:42,412 - __main__ - INFO - 🔧 کامپوننت‌ها راه‌اندازی شدند
+2025-08-10 23:15:42,412 - core.monitor - INFO - 🐋 WhalePulse Pro شروع به کار کرد
+2025-08-10 23:15:42,413 - core.monitor - INFO - 🔄 بررسی هر ثانیه - گزارش هر 15 دقیقه
+2025-08-10 23:15:43,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8136421090:AAFrb8RI6BQ2tH49YXX_5S32_W0yWfT04Cg/sendMessage "HTTP/1.1 200 OK"
+2025-08-10 23:15:43,367 - plugins.telegram - INFO - پیام به تلگرام ارسال شد
+2025-08-10 23:30:46,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8136421090:AAFrb8RI6BQ2tH49YXX_5S32_W0yWfT04Cg/sendMessage "HTTP/1.1 200 OK"
+2025-08-10 23:30:46,925 - plugins.telegram - INFO - پیام به تلگرام ارسال شد
+2025-08-10 23:45:53,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8136421090:AAFrb8RI6BQ2tH49YXX_5S32_W0yWfT04Cg/sendMessage "HTTP/1.1 200 OK"
+2025-08-10 23:45:53,597 - plugins.telegram - INFO - پیام به تلگرام ارسال شد
